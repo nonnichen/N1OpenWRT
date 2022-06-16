@@ -2,15 +2,15 @@
 #=================================================
 # Description: DIY script
 # Lisence: MIT
-# Author: P3TERX
-# Blog: https://p3terx.com
+# Author: Nonni
+# Blog: https://nonni.cn
 #=================================================
 
 echo '修改机器名称'
-sed -i 's/OpenWrt/Phicomm-N1/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/NonniWiFi-N1/g' package/base-files/files/bin/config_generate
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.11.11/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.66.1/g' package/base-files/files/bin/config_generate
 
 echo '修改时区'
 sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
