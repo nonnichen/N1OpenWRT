@@ -4,11 +4,10 @@ N1 OpenWrt.
 ![GitHub](https://img.shields.io/github/license/mingxiaoyu/N1Openwrt)
 
 
-# 喜欢的可以给个star。要自己编译独一无二的可以fork。如果有人要贝壳云等其他的，可以提issue。我就加上去。再次感谢各位。
 
 默认自定义防火墙: iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE
 
-~~每三天自动编译一次~~
+
 
 # 如何使用
 1. fork项目
@@ -23,7 +22,7 @@ N1 OpenWrt.
 ## 用户名和密码
  * User: root
  * Password: password
- * Default IP: 192.168.32.2
+ * Default IP: 192.168.66.1
 ------
 
 ## app list:（mini 图不代表最新的）
